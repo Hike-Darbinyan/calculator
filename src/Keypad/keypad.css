@@ -1,0 +1,64 @@
+.calculator-keypad {
+    height: 400px;
+    width: 320px;
+    display: flex;
+    border-radius: 0 0 5px 5px;
+}
+
+.input-keys {
+    width: 240px;
+}
+
+.function-keys {
+    display: flex;
+}
+
+.calculator-key {
+    width: 80px;
+    height: 80px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    text-align: center;
+    line-height: 80px;
+    background-image: url('../image\'s/background.jpg');
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+
+.digit-keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.key-0 {
+    width: 160px;
+    border-bottom-left-radius: 5px;
+}
+
+.key-equals {
+    height: 160px;
+    border-bottom-right-radius: 5px;
+}
+
+button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    /* font-family: inherit; */
+    cursor: pointer;
+}
+
+.calculator .operator-keys .calculator-key {
+    color: rgb(255, 255, 255);
+    border-right: 0;
+}
+
+.key-dot {
+    font-size: 4em;
+}
+
+
+
+

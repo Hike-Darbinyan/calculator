@@ -1,13 +1,27 @@
+
+
 body {
   margin: 0;
-  padding: 0;
   background-image: url('./image\'s/background.jpg');
+  font: 100 14px 'Roboto';
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app {
-    margin: 20px auto;
-    padding: 0;
-    width: 500px;
+    width: 320px;
+    height: 520px;
     border-radius: 5px;
-    display: flex;
+    position: relative;
 }
+
+
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  zoom: 0.6;
+}
+
+

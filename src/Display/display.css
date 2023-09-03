@@ -1,0 +1,21 @@
+.calculator-display  {
+    width: 320px;
+    height: 120px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    line-height: 130px;
+    flex: 1;
+    background-image: url('../image\'s/background.jpg');
+    font-size: 6em;
+}
+
+.display {
+    padding: 0 30px;
+    position: absolute;
+    right: 0;
+    transform-origin: right;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    width: 45.98px;
+    height: 130px;
+}
